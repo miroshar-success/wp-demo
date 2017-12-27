@@ -97,7 +97,8 @@
     "mikkosaari/relevanssi-premium": "^1.16",
     "devgeniem/wp-core-blocker": "^0.3.2",
 
-    "wpackagist-theme/twentyseventeen": "*"
+    "wpackagist-theme/twentyseventeen": "*",
+    "vincit/wordpress-theme-base": "dev-master"
   },
   "require-dev": {
     "rarst/wps": "dev-master",
