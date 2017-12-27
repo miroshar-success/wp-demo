@@ -92,6 +92,7 @@ jobs:
             # Handle restarting nginx and so on...
             if [ $CIRCLE_BRANCH == 'master' ]; then
               sshpass -e rsync -av --progress \
+              --omit-dir-times
               --exclude='node_modules' \
               --delete \
               -e 'ssh -T -o Compression=no -o StrictHostKeyChecking=no -p 22' \
