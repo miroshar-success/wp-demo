@@ -1,7 +1,7 @@
 ###
 # Configuration for Vagrant
 ###
-name: wordpress
+name: wordpressvincitio
 #production:
   # This is used to automatically fetch data from a staging/production environment
   #domain: example.seravo.com
@@ -10,6 +10,6 @@ name: wordpress
 development:
   # Domains are automatically mapped to Vagrant with /etc/hosts modifications
   domains:
-    - wordpress.local
+    - wordpressvincitio.local
   # If you want to use zeroconf (.local domains) in your network you can use this.
   #avahi: true

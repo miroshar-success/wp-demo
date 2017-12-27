@@ -50,3 +50,7 @@ myrecording
 
 # OSX Desktop Services Store files.
 .DS_Store
+/.vincit.d
+/customizations
+/install.sh
+/vagrant-up-customizer.sh
