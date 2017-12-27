@@ -106,6 +106,14 @@ jobs:
               --delete \
               -e 'ssh -T -o Compression=no -o StrictHostKeyChecking=no -p 22' \
               ~/repo/htdocs/wp-content/plugins/ circleci@wordpress.vincit.io:/var/www/html/htdocs/wp-content/plugins
+
+              sshpass -e rsync -av --progress \
+              --omit-dir-times \
+              --no-perms \
+              --exclude='node_modules' \
+              --delete \
+              -e 'ssh -T -o Compression=no -o StrictHostKeyChecking=no -p 22' \
+              ~/repo/htdocs/wp-content/mu-plugins/ circleci@wordpress.vincit.io:/var/www/html/htdocs/wp-content/mu-plugins
             fi
 
       # - run: # Say no to ruby, try Puppeteer
