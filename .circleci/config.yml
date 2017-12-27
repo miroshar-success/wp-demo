@@ -69,9 +69,9 @@ jobs:
               --path=htdocs/wordpress
 
             # Get the database
-            sshpass -e ssh -q -o StrictHostKeyChecking=no USER@TARGET.domain -p 10349 'wp db export - --single-transaction' > database.sql
-            mysql -h 127.0.0.1 -u root -D circle_test < database.sql
-            rm database.sql
+            # sshpass -e ssh -q -o StrictHostKeyChecking=no circleci@wordpress.vincit.io -p 22 'wp db export - --single-transaction' > database.sql
+            # mysql -h 127.0.0.1 -u root -D circle_test < database.sql
+            # rm database.sql
 
             # Activate all plugins
             php wp-cli.phar plugin activate --all --path=htdocs/wordpress
@@ -91,11 +91,7 @@ jobs:
           command: |
             # Handle restarting nginx and so on...
             if [ $CIRCLE_BRANCH == 'master' ]; then
-              sshpass -e rsync -av --progress --exclude='node_modules' --delete --exclude='*/wp-content/uploads/*' -e 'ssh -T -o Compression=no -o StrictHostKeyChecking=no -p 10349' ~/repo/ USER@TARGET.domain:/data/wordpress
-            fi
-
-            if [ $CIRCLE_BRANCH == 'production' ]; then
-              sshpass -e rsync -av --progress --exclude='node_modules' --delete --exclude='*/wp-content/uploads/*' -e 'ssh -T -o Compression=no -o StrictHostKeyChecking=no -p 10298' ~/repo/ USER@TARGET.domain:/data/wordpress
+              sshpass -e rsync -av --progress --exclude='node_modules' --delete --exclude='*/wp-content/uploads/*' -e 'ssh -T -o Compression=no -o StrictHostKeyChecking=no -p 22' ~/repo/ circleci@wordpress.vincit.io:/var/www/html
             fi
 
       # - run: # Say no to ruby, try Puppeteer
