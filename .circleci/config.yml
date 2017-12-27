@@ -93,10 +93,15 @@ jobs:
             if [ $CIRCLE_BRANCH == 'master' ]; then
               sshpass -e rsync -av --progress \
               --exclude='node_modules' \
-              --exclude='.env' \
-              --delete --exclude='*/wp-content/uploads/*' \
+              --delete \
               -e 'ssh -T -o Compression=no -o StrictHostKeyChecking=no -p 22' \
-              ~/repo/ circleci@wordpress.vincit.io:/var/www/html
+              ~/repo/htdocs/wp-content/themes/ circleci@wordpress.vincit.io:/var/www/html/htdocs/wp-content/themes
+
+              sshpass -e rsync -av --progress \
+              --exclude='node_modules' \
+              --delete \
+              -e 'ssh -T -o Compression=no -o StrictHostKeyChecking=no -p 22' \
+              ~/repo/htdocs/wp-content/plugins/ circleci@wordpress.vincit.io:/var/www/html/htdocs/wp-content/plugins
             fi
 
       # - run: # Say no to ruby, try Puppeteer
