@@ -2,11 +2,12 @@
 # Configuration for Vagrant
 ###
 name: wordpressvincitio
-#production:
+production:
   # This is used to automatically fetch data from a staging/production environment
-  #domain: example.seravo.com
-  #ssh_port: 12345
-  #url: https://example.seravo.com
+  domain: wordpress.vincit.io
+  ssh_port: 22
+  user: circleci
+  url: https://wordpress.vincit.io
 development:
   # Domains are automatically mapped to Vagrant with /etc/hosts modifications
   domains:
