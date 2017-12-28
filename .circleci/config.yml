@@ -69,9 +69,9 @@ jobs:
               --path=htdocs/wordpress
 
             # Get the database
-            # sshpass -e ssh -q -o StrictHostKeyChecking=no circleci@wordpress.vincit.io -p 22 'wp db export - --single-transaction' > database.sql
-            # mysql -h 127.0.0.1 -u root -D circle_test < database.sql
-            # rm database.sql
+            sshpass -e ssh -q -o StrictHostKeyChecking=no circleci@wordpress.vincit.io -p 22 'wp db export - --single-transaction' > database.sql
+            mysql -h 127.0.0.1 -u root -D circle_test < database.sql
+            rm database.sql
 
             # Activate all plugins
             php wp-cli.phar plugin activate --all --path=htdocs/wordpress
