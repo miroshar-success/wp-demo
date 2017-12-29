@@ -1,9 +1,9 @@
-# Project
+# WordPress demo project
 
 This project is built on [Seravo/wordpress][1], [Vincit/wordpress][2] & [Vincit/wordpress-theme-base][3] which are documented at their corresponding locations. This is a guide on:
 
 - how to setup the project initially
-- how to get the project running on your local machinee
+- how to get the project running on your local machine
 - how to update the project dependencies
 - how to deploy the project to production (using CI)
 
