@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "content-hash": "b18b075db1b4ba008fd5f22895ec4bbc",
+    "content-hash": "48d0d1f701dfb1478e43aa902d49afdc",
     "packages": [
         {
             "name": "anttiviljami/wp-libre-form",
@@ -1219,16 +1219,16 @@
         },
         {
             "name": "vincit/wordpress-theme-base",
-            "version": "dev-master",
+            "version": "dev-demo",
             "source": {
                 "type": "git",
                 "url": "https://github.com/Vincit/wordpress-theme-base.git",
-                "reference": "9a6f11842b59900efbdcb224632fc55bd1648fc4"
+                "reference": "0143cfe1153f14af4f3f665da2e378d16dac3c03"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/Vincit/wordpress-theme-base/zipball/9a6f11842b59900efbdcb224632fc55bd1648fc4",
-                "reference": "9a6f11842b59900efbdcb224632fc55bd1648fc4",
+                "url": "https://api.github.com/repos/Vincit/wordpress-theme-base/zipball/0143cfe1153f14af4f3f665da2e378d16dac3c03",
+                "reference": "0143cfe1153f14af4f3f665da2e378d16dac3c03",
                 "shasum": "",
                 "mirrors": [
                     {
@@ -1251,7 +1251,7 @@
                     "email": "christian.nikkanen@vincit.com"
                 }
             ],
-            "time": "2017-12-27T17:51:01+00:00"
+            "time": "2017-12-28T13:39:31+00:00"
         },
         {
             "name": "vlucas/phpdotenv",
@@ -1860,12 +1860,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/Vincit/wordpress.git",
-                "reference": "d3e294fe1979bb2223928f882149f98134f1c046"
+                "reference": "5f3a4922a3049c7021af8c2899bc4317ee83f366"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/Vincit/wordpress/zipball/d3e294fe1979bb2223928f882149f98134f1c046",
-                "reference": "d3e294fe1979bb2223928f882149f98134f1c046",
+                "url": "https://api.github.com/repos/Vincit/wordpress/zipball/5f3a4922a3049c7021af8c2899bc4317ee83f366",
+                "reference": "5f3a4922a3049c7021af8c2899bc4317ee83f366",
                 "shasum": "",
                 "mirrors": [
                     {
@@ -1888,7 +1888,7 @@
                     "email": "christian.nikkanen@vincit.com"
                 }
             ],
-            "time": "2017-12-29T12:51:51+00:00"
+            "time": "2017-12-29T13:32:23+00:00"
         }
     ],
     "aliases": [],

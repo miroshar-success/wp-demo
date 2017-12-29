@@ -55,3 +55,4 @@ myrecording
 /customizations
 /install.sh
 /vagrant-up-customizer.sh
+!/customizations/bin

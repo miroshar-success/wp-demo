@@ -98,7 +98,7 @@
     "devgeniem/wp-core-blocker": "^0.3.2",
 
     "wpackagist-theme/twentyseventeen": "*",
-    "vincit/wordpress-theme-base": "dev-master"
+    "vincit/wordpress-theme-base": "dev-demo"
   },
   "require-dev": {
     "rarst/wps": "dev-master",
