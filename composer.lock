@@ -1860,12 +1860,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/Vincit/wordpress.git",
-                "reference": "9f3e52a43f80d18bf5629f91188b8986e363f018"
+                "reference": "d3e294fe1979bb2223928f882149f98134f1c046"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/Vincit/wordpress/zipball/9f3e52a43f80d18bf5629f91188b8986e363f018",
-                "reference": "9f3e52a43f80d18bf5629f91188b8986e363f018",
+                "url": "https://api.github.com/repos/Vincit/wordpress/zipball/d3e294fe1979bb2223928f882149f98134f1c046",
+                "reference": "d3e294fe1979bb2223928f882149f98134f1c046",
                 "shasum": "",
                 "mirrors": [
                     {
@@ -1888,7 +1888,7 @@
                     "email": "christian.nikkanen@vincit.com"
                 }
             ],
-            "time": "2017-12-19T11:44:45+00:00"
+            "time": "2017-12-29T12:51:51+00:00"
         }
     ],
     "aliases": [],
