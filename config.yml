@@ -8,6 +8,7 @@ production:
   ssh_port: 22
   user: circleci
   url: https://wordpress.vincit.io
+  uploadDir: /var/www/html/htdocs/wp-content/uploads/
 development:
   # Domains are automatically mapped to Vagrant with /etc/hosts modifications
   domains:
