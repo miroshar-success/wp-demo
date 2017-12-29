@@ -96,7 +96,9 @@ Follow CircleCI's instructions on how to get started, the config file is preconf
 If you use Private Packagist (packagist.com), you need to provide an composer auth token, and provide it as an environment variable. You can do this from the CircleCI dashboard.
 You also have to provide the password to your production instance, so CircleCI can deploy the files. The environment variable is SSHPASS, you can also do this from the dash.
 
-The config in this repository deploys to Seravo / WP-palvelu. If your environment is different, that's fine too. [Vincit/wordpress-demo](https://github.com/Vincit/wordpress-demo/blob/master/.circleci/config.yml) shows how you can deploy to traditional WordPress installations that do not follow the bedrock structure.
+The config in this repository deploys to a 5$ / month Digital Ocean LEMP 1 click server, using the traditional model of installing WordPress.
+
+If you'd like to deploy into Seravo / WP-palvelu, that's fine too. [Vincit/wordpress](https://github.com/Vincit/wordpress/blob/master/.circleci/config.yml) has exactly that.
 
 [1]: https://github.com/Seravo/wordpress
 [2]: https://github.com/Vincit/wordpress
