@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "content-hash": "48d0d1f701dfb1478e43aa902d49afdc",
+    "content-hash": "13cbe14a369642c5b9e987a12bdb9a19",
     "packages": [
         {
             "name": "anttiviljami/wp-libre-form",
@@ -82,41 +82,6 @@
             "description": "Better text domain loading with object cache support for WordPress",
             "homepage": "https://github.com/aucor/dynamic-mo-loader",
             "time": "2016-10-31T07:05:24+00:00"
-        },
-        {
-            "name": "aucor/polylang-copy-content",
-            "version": "0.1.2",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/aucor/polylang-copy-content.git",
-                "reference": "760509be684257280f13dcc2abf4346a8fc173e0"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/aucor/polylang-copy-content/zipball/760509be684257280f13dcc2abf4346a8fc173e0",
-                "reference": "760509be684257280f13dcc2abf4346a8fc173e0",
-                "shasum": "",
-                "mirrors": [
-                    {
-                        "url": "https://repo.packagist.com/vincit/dists/%package%/%version%/%reference%.%type%",
-                        "preferred": true
-                    }
-                ]
-            },
-            "type": "wordpress-plugin",
-            "notification-url": "https://repo.packagist.com/vincit/downloads/",
-            "license": [
-                "GPLv2 or later"
-            ],
-            "authors": [
-                {
-                    "name": "Teemu Suoranta",
-                    "email": "teemu@aucor.fi"
-                }
-            ],
-            "description": "Copy content, title and attachments when creating a new translation with Polylang in WordPress",
-            "homepage": "https://github.com/aucor/polylang-copy-content",
-            "time": "2017-12-15T09:55:59+00:00"
         },
         {
             "name": "aucor/wp_query-route-to-rest-api",
@@ -1315,86 +1280,6 @@
             "time": "2014-10-16T14:50:21+00:00"
         },
         {
-            "name": "wpackagist-plugin/adminimize",
-            "version": "1.11.4",
-            "source": {
-                "type": "svn",
-                "url": "https://plugins.svn.wordpress.org/adminimize/",
-                "reference": "tags/1.11.4"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/adminimize.1.11.4.zip",
-                "reference": null,
-                "shasum": null
-            },
-            "require": {
-                "composer/installers": "~1.0"
-            },
-            "type": "wordpress-plugin",
-            "homepage": "https://wordpress.org/plugins/adminimize/"
-        },
-        {
-            "name": "wpackagist-plugin/autodescription",
-            "version": "2.9.4",
-            "source": {
-                "type": "svn",
-                "url": "https://plugins.svn.wordpress.org/autodescription/",
-                "reference": "tags/2.9.4"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/autodescription.2.9.4.zip",
-                "reference": null,
-                "shasum": null
-            },
-            "require": {
-                "composer/installers": "~1.0"
-            },
-            "type": "wordpress-plugin",
-            "homepage": "https://wordpress.org/plugins/autodescription/"
-        },
-        {
-            "name": "wpackagist-plugin/duplicate-post",
-            "version": "3.2.1",
-            "source": {
-                "type": "svn",
-                "url": "https://plugins.svn.wordpress.org/duplicate-post/",
-                "reference": "tags/3.2.1"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/duplicate-post.3.2.1.zip",
-                "reference": null,
-                "shasum": null
-            },
-            "require": {
-                "composer/installers": "~1.0"
-            },
-            "type": "wordpress-plugin",
-            "homepage": "https://wordpress.org/plugins/duplicate-post/"
-        },
-        {
-            "name": "wpackagist-plugin/enhanced-media-library",
-            "version": "2.4.5",
-            "source": {
-                "type": "svn",
-                "url": "https://plugins.svn.wordpress.org/enhanced-media-library/",
-                "reference": "tags/2.4.5"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/enhanced-media-library.2.4.5.zip",
-                "reference": null,
-                "shasum": null
-            },
-            "require": {
-                "composer/installers": "~1.0"
-            },
-            "type": "wordpress-plugin",
-            "homepage": "https://wordpress.org/plugins/enhanced-media-library/"
-        },
-        {
             "name": "wpackagist-plugin/global-meta-box-order",
             "version": "1.0.3",
             "source": {
@@ -1435,46 +1320,6 @@
             "homepage": "https://wordpress.org/plugins/imsanity/"
         },
         {
-            "name": "wpackagist-plugin/polylang",
-            "version": "2.2.7",
-            "source": {
-                "type": "svn",
-                "url": "https://plugins.svn.wordpress.org/polylang/",
-                "reference": "tags/2.2.7"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/polylang.2.2.7.zip",
-                "reference": null,
-                "shasum": null
-            },
-            "require": {
-                "composer/installers": "~1.0"
-            },
-            "type": "wordpress-plugin",
-            "homepage": "https://wordpress.org/plugins/polylang/"
-        },
-        {
-            "name": "wpackagist-plugin/post-expirator",
-            "version": "2.3.1.1",
-            "source": {
-                "type": "svn",
-                "url": "https://plugins.svn.wordpress.org/post-expirator/",
-                "reference": "tags/2.3.1.1"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/post-expirator.2.3.1.1.zip",
-                "reference": null,
-                "shasum": null
-            },
-            "require": {
-                "composer/installers": "~1.0"
-            },
-            "type": "wordpress-plugin",
-            "homepage": "https://wordpress.org/plugins/post-expirator/"
-        },
-        {
             "name": "wpackagist-plugin/query-monitor",
             "version": "2.17.0",
             "source": {
@@ -1513,6 +1358,26 @@
             },
             "type": "wordpress-plugin",
             "homepage": "https://wordpress.org/plugins/rich-text-tags/"
+        },
+        {
+            "name": "wpackagist-plugin/svg-support",
+            "version": "2.3.11",
+            "source": {
+                "type": "svn",
+                "url": "https://plugins.svn.wordpress.org/svg-support/",
+                "reference": "tags/2.3.11"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://downloads.wordpress.org/plugin/svg-support.2.3.11.zip",
+                "reference": null,
+                "shasum": null
+            },
+            "require": {
+                "composer/installers": "~1.0"
+            },
+            "type": "wordpress-plugin",
+            "homepage": "https://wordpress.org/plugins/svg-support/"
         },
         {
             "name": "wpackagist-plugin/user-switching",
