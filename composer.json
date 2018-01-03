@@ -92,7 +92,8 @@
 
     "wpackagist-theme/twentyseventeen": "*",
     "vincit/wordpress-theme-base": "dev-demo",
-    "wpackagist-plugin/svg-support": "^2.3"
+    "wpackagist-plugin/svg-support": "^2.3",
+    "soflyy/wp-all-import-pro": "^4.5"
   },
   "require-dev": {
     "rarst/wps": "dev-master",

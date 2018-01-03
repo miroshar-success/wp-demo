@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "content-hash": "13cbe14a369642c5b9e987a12bdb9a19",
+    "content-hash": "2e4eed3a891ee6450afbb65cab889124",
     "packages": [
         {
             "name": "anttiviljami/wp-libre-form",
@@ -1124,6 +1124,33 @@
                 "wp-palvelu"
             ],
             "time": "2017-12-16T20:17:39+00:00"
+        },
+        {
+            "name": "soflyy/wp-all-import-pro",
+            "version": "4.5.0",
+            "source": {
+                "type": "git",
+                "url": "git@bitbucket.org:vincit/wp-all-import-pro.git",
+                "reference": "5e3f3990f15cddc86afb949bc9f8a0bb6621285e"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://repo.packagist.com/vincit/dists/soflyy/wp-all-import-pro/4.5.0.0/5e3f3990f15cddc86afb949bc9f8a0bb6621285e.zip",
+                "reference": "5e3f3990f15cddc86afb949bc9f8a0bb6621285e",
+                "shasum": null,
+                "mirrors": [
+                    {
+                        "url": "https://repo.packagist.com/vincit/dists/%package%/%version%/%reference%.%type%",
+                        "preferred": true
+                    }
+                ]
+            },
+            "type": "wordpress-plugin",
+            "notification-url": "https://repo.packagist.com/vincit/downloads/",
+            "license": [
+                "GPL-2.0"
+            ],
+            "time": "2017-10-09T11:46:16+00:00"
         },
         {
             "name": "squizlabs/php_codesniffer",
