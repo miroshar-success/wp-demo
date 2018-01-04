@@ -1756,12 +1756,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/Vincit/wordpress.git",
-                "reference": "0bb1cc9802a2640c120a2e3b7bcbf7d31dc18464"
+                "reference": "53d005d4f3bb8b0f3539f4643805e51b83d32b54"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/Vincit/wordpress/zipball/0bb1cc9802a2640c120a2e3b7bcbf7d31dc18464",
-                "reference": "0bb1cc9802a2640c120a2e3b7bcbf7d31dc18464",
+                "url": "https://api.github.com/repos/Vincit/wordpress/zipball/53d005d4f3bb8b0f3539f4643805e51b83d32b54",
+                "reference": "53d005d4f3bb8b0f3539f4643805e51b83d32b54",
                 "shasum": "",
                 "mirrors": [
                     {
@@ -1788,7 +1788,7 @@
                 "source": "https://github.com/Vincit/wordpress/tree/master",
                 "issues": "https://github.com/Vincit/wordpress/issues"
             },
-            "time": "2017-12-29T15:14:34+00:00"
+            "time": "2018-01-04T14:48:18+00:00"
         }
     ],
     "aliases": [],
