@@ -1215,12 +1215,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/Vincit/wordpress-theme-base.git",
-                "reference": "b207aaac8ad3c636ffa58197fecc77c1deea12ca"
+                "reference": "6db2a7a5c72b6f3d9267c949d477ee3586778a96"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/Vincit/wordpress-theme-base/zipball/b207aaac8ad3c636ffa58197fecc77c1deea12ca",
-                "reference": "b207aaac8ad3c636ffa58197fecc77c1deea12ca",
+                "url": "https://api.github.com/repos/Vincit/wordpress-theme-base/zipball/6db2a7a5c72b6f3d9267c949d477ee3586778a96",
+                "reference": "6db2a7a5c72b6f3d9267c949d477ee3586778a96",
                 "shasum": "",
                 "mirrors": [
                     {
@@ -1247,7 +1247,7 @@
                 "source": "https://github.com/Vincit/wordpress-theme-base/tree/demo",
                 "issues": "https://github.com/Vincit/wordpress-theme-base/issues"
             },
-            "time": "2018-01-08T08:26:05+00:00"
+            "time": "2018-01-08T15:22:53+00:00"
         },
         {
             "name": "vlucas/phpdotenv",
@@ -1756,12 +1756,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/Vincit/wordpress.git",
-                "reference": "53d005d4f3bb8b0f3539f4643805e51b83d32b54"
+                "reference": "7eee1701c1957888580ba8a53c2684b697e8ddf6"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/Vincit/wordpress/zipball/53d005d4f3bb8b0f3539f4643805e51b83d32b54",
-                "reference": "53d005d4f3bb8b0f3539f4643805e51b83d32b54",
+                "url": "https://api.github.com/repos/Vincit/wordpress/zipball/7eee1701c1957888580ba8a53c2684b697e8ddf6",
+                "reference": "7eee1701c1957888580ba8a53c2684b697e8ddf6",
                 "shasum": "",
                 "mirrors": [
                     {
@@ -1788,7 +1788,7 @@
                 "source": "https://github.com/Vincit/wordpress/tree/master",
                 "issues": "https://github.com/Vincit/wordpress/issues"
             },
-            "time": "2018-01-04T14:48:18+00:00"
+            "time": "2018-01-05T10:56:24+00:00"
         }
     ],
     "aliases": [],
