@@ -1215,12 +1215,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/Vincit/wordpress-theme-base.git",
-                "reference": "99d73ffbf4381f5a60369214602327a031568904"
+                "reference": "e2b171434492472174890dfd7f842f0c724600fa"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/Vincit/wordpress-theme-base/zipball/99d73ffbf4381f5a60369214602327a031568904",
-                "reference": "99d73ffbf4381f5a60369214602327a031568904",
+                "url": "https://api.github.com/repos/Vincit/wordpress-theme-base/zipball/e2b171434492472174890dfd7f842f0c724600fa",
+                "reference": "e2b171434492472174890dfd7f842f0c724600fa",
                 "shasum": "",
                 "mirrors": [
                     {
@@ -1247,7 +1247,7 @@
                 "source": "https://github.com/Vincit/wordpress-theme-base/tree/demo",
                 "issues": "https://github.com/Vincit/wordpress-theme-base/issues"
             },
-            "time": "2018-01-09T13:00:32+00:00"
+            "time": "2018-01-09T14:38:37+00:00"
         },
         {
             "name": "vlucas/phpdotenv",
