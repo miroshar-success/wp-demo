@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "content-hash": "2e4eed3a891ee6450afbb65cab889124",
+    "content-hash": "c649d5e1473a01fda28519aaa6d4dc93",
     "packages": [
         {
             "name": "anttiviljami/wp-libre-form",
@@ -321,6 +321,52 @@
                 "GPL-2.0"
             ],
             "time": "2017-12-20T08:40:15+00:00"
+        },
+        {
+            "name": "humanmade/page-for-post-type",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/humanmade/page-for-post-type.git",
+                "reference": "b603f30fea65328002789dffd73cf7ef2030ecbb"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/humanmade/page-for-post-type/zipball/b603f30fea65328002789dffd73cf7ef2030ecbb",
+                "reference": "b603f30fea65328002789dffd73cf7ef2030ecbb",
+                "shasum": "",
+                "mirrors": [
+                    {
+                        "url": "https://repo.packagist.com/vincit/dists/%package%/%version%/%reference%.%type%",
+                        "preferred": true
+                    }
+                ]
+            },
+            "require": {
+                "composer/installers": "~1.0"
+            },
+            "type": "wordpress-plugin",
+            "notification-url": "https://repo.packagist.com/vincit/downloads/",
+            "license": [
+                "GPL-3.0"
+            ],
+            "authors": [
+                {
+                    "name": "Human Made Limited",
+                    "email": "support@humanmade.com",
+                    "homepage": "https://humanmade.com"
+                }
+            ],
+            "description": "Allows you to set pages for any custom post type archive",
+            "homepage": "https://github.com/humanmade/page-for-post-type",
+            "keywords": [
+                "wordpress"
+            ],
+            "support": {
+                "issues": "https://github.com/humanmade/page-for-post-type/issues",
+                "source": "https://github.com/humanmade/page-for-post-type"
+            },
+            "time": "2017-12-15T09:20:14+00:00"
         },
         {
             "name": "johnpbloch/wordpress-core",
@@ -1215,12 +1261,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/Vincit/wordpress-theme-base.git",
-                "reference": "e2b171434492472174890dfd7f842f0c724600fa"
+                "reference": "d60fd2e1d4ab870a07fb34d3aa9dc42fbd65b0ef"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/Vincit/wordpress-theme-base/zipball/e2b171434492472174890dfd7f842f0c724600fa",
-                "reference": "e2b171434492472174890dfd7f842f0c724600fa",
+                "url": "https://api.github.com/repos/Vincit/wordpress-theme-base/zipball/d60fd2e1d4ab870a07fb34d3aa9dc42fbd65b0ef",
+                "reference": "d60fd2e1d4ab870a07fb34d3aa9dc42fbd65b0ef",
                 "shasum": "",
                 "mirrors": [
                     {
@@ -1247,7 +1293,7 @@
                 "source": "https://github.com/Vincit/wordpress-theme-base/tree/demo",
                 "issues": "https://github.com/Vincit/wordpress-theme-base/issues"
             },
-            "time": "2018-01-09T14:38:37+00:00"
+            "time": "2018-01-09T15:30:31+00:00"
         },
         {
             "name": "vlucas/phpdotenv",
@@ -1795,6 +1841,7 @@
     "minimum-stability": "stable",
     "stability-flags": {
         "vincit/wordpress-theme-base": 20,
+        "humanmade/page-for-post-type": 20,
         "rarst/wps": 20,
         "vincit/wordpress": 20
     },
