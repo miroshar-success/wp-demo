@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "content-hash": "c649d5e1473a01fda28519aaa6d4dc93",
+    "content-hash": "917751034ef70ab3fdd07c4dfddda0e2",
     "packages": [
         {
             "name": "anttiviljami/wp-libre-form",
@@ -1047,16 +1047,16 @@
         },
         {
             "name": "mikkosaari/relevanssi-premium",
-            "version": "1.16.1",
+            "version": "2.0.3.1",
             "source": {
                 "type": "git",
                 "url": "git@bitbucket.org:vincit/relevanssi-premium.git",
-                "reference": "9491d10cc5a167f9b62093256dbdd4b20a8dc7be"
+                "reference": "18e7858e508a236659e66b92ee2da916b6ca59c8"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://repo.packagist.com/vincit/dists/mikkosaari/relevanssi-premium/1.16.1.0/9491d10cc5a167f9b62093256dbdd4b20a8dc7be.zip",
-                "reference": "9491d10cc5a167f9b62093256dbdd4b20a8dc7be",
+                "url": "https://repo.packagist.com/vincit/dists/mikkosaari/relevanssi-premium/2.0.3.1/18e7858e508a236659e66b92ee2da916b6ca59c8.zip",
+                "reference": "18e7858e508a236659e66b92ee2da916b6ca59c8",
                 "shasum": null,
                 "mirrors": [
                     {
@@ -1070,7 +1070,7 @@
             "license": [
                 "GPL-2.0"
             ],
-            "time": "2017-10-13T10:06:11+00:00"
+            "time": "2017-12-20T08:43:18+00:00"
         },
         {
             "name": "roots/soil",
@@ -1261,12 +1261,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/Vincit/wordpress-theme-base.git",
-                "reference": "d60fd2e1d4ab870a07fb34d3aa9dc42fbd65b0ef"
+                "reference": "ee5d554c8cab22a47f83759af80999bd34b53388"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/Vincit/wordpress-theme-base/zipball/d60fd2e1d4ab870a07fb34d3aa9dc42fbd65b0ef",
-                "reference": "d60fd2e1d4ab870a07fb34d3aa9dc42fbd65b0ef",
+                "url": "https://api.github.com/repos/Vincit/wordpress-theme-base/zipball/ee5d554c8cab22a47f83759af80999bd34b53388",
+                "reference": "ee5d554c8cab22a47f83759af80999bd34b53388",
                 "shasum": "",
                 "mirrors": [
                     {
@@ -1293,7 +1293,7 @@
                 "source": "https://github.com/Vincit/wordpress-theme-base/tree/demo",
                 "issues": "https://github.com/Vincit/wordpress-theme-base/issues"
             },
-            "time": "2018-01-09T15:30:31+00:00"
+            "time": "2018-01-09T15:40:35+00:00"
         },
         {
             "name": "vlucas/phpdotenv",
@@ -1802,12 +1802,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/Vincit/wordpress.git",
-                "reference": "7eee1701c1957888580ba8a53c2684b697e8ddf6"
+                "reference": "f33ce47e35192980a4e83007e2f55794494cb697"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/Vincit/wordpress/zipball/7eee1701c1957888580ba8a53c2684b697e8ddf6",
-                "reference": "7eee1701c1957888580ba8a53c2684b697e8ddf6",
+                "url": "https://api.github.com/repos/Vincit/wordpress/zipball/f33ce47e35192980a4e83007e2f55794494cb697",
+                "reference": "f33ce47e35192980a4e83007e2f55794494cb697",
                 "shasum": "",
                 "mirrors": [
                     {
@@ -1834,14 +1834,14 @@
                 "source": "https://github.com/Vincit/wordpress/tree/master",
                 "issues": "https://github.com/Vincit/wordpress/issues"
             },
-            "time": "2018-01-05T10:56:24+00:00"
+            "time": "2018-01-09T15:11:51+00:00"
         }
     ],
     "aliases": [],
     "minimum-stability": "stable",
     "stability-flags": {
-        "vincit/wordpress-theme-base": 20,
         "humanmade/page-for-post-type": 20,
+        "vincit/wordpress-theme-base": 20,
         "rarst/wps": 20,
         "vincit/wordpress": 20
     },
