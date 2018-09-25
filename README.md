@@ -8,6 +8,64 @@ This project is built on [Seravo/wordpress][1], [Vincit/wordpress][2] & [Vincit/
 - how to deploy the project to production (using CI)
 
 
+## Setting it up initially
+You should've cloned [Seravo/wordpress][1], and installed [Vincit/wordpress][2] by now. Your Vagrant machine should be up and running. If not, go back to [Vincit/wordpress][2] and read what you have do. If you haven't used Vagrant before, check [Seravo/wordpress][1] for guidance.
+
+If Vagrant is indeed running, you're ready to version control the project. [Seravo/wordpress][1] is the actual project base, and the clone you created will work as a fork. It remains upgradeable, but allows us to save our customizations. [Vincit/wordpress][2] provides some default customizations and improvements, and you can create your own should you want to.
+
+### In case you're using [Vincit/wordpress-theme-base][3]
+If the theme you're creating isn't going to be used in multiple projects, commit the theme directly into this project, **and do not require it with Composer**. If you want to use Composer to manage the theme, **do not commit the theme into this repository**.
+
+Composer simply brings an extra `composer update` into play every time you want to update your theme in the project.
+
+If you have problems with the theme, consult the README in it.
+
+### Committing the project
+
+Running `git status` should look something like this:
+```
+# On branch: master  |  [*] => $e*
+#
+➤ Changes not staged for commit
+#
+#       modified:  .gitignore
+#       modified:  composer.json
+#       modified:  composer.lock
+#       modified:  README.md
+#        deleted:  config-sample.yml
+#
+➤ Untracked files
+#
+#      untracked:  config.yml
+#      untracked:  customizations/bin
+#      untracked:  htdocs/wp-content/themes/wordpress-theme-base # or whatever it was renamed to
+#
+```
+
+Make the initial commit:
+```
+git add .gitignore composer.json composer.lock config-sample.yml config.yml README.md customizations/bin
+# git add htdocs/wp-content/themes/wordpress-theme-base # commit the theme if not using Composer for managing the theme
+git commit -m "Initial commit"
+```
+
+Rename the origin remote:
+```
+git remote rename origin seravo
+```
+
+This is to keep the project upgradeable with `git pull seravo master`.
+
+Add a new origin remote:
+```
+git remote add origin git@bitbucket.com:vendor/project.git
+```
+
+Push into the new remote:
+```
+git push -u origin master
+```
+
 ## Getting it running
 In order to get an existing project running, simply clone it, and run vagrant up.
 
@@ -16,7 +74,7 @@ git clone git@github.com:Vincit/wordpress-demo.git
 cd wordpress-demo
 vagrant up
 
-# navigate to https://wordpress.local/
+# navigate to https://wordpressvincitio.local/
 ```
 
 Depending on how you've set things up and the position of the moon, you may or may not need to build your theme(s) afterwards.
